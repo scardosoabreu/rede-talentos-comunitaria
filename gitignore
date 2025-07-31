@@ -1,0 +1,4 @@
+db_connect.php
+app_log.log
+/node_modules/ # Se você usar npm/yarn no futuro
+.env # Se você usar variáveis de ambiente no futuro

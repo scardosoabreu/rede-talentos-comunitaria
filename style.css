@@ -1,0 +1,32 @@
+/*
+Este arquivo é linkado no index.html e contém os estilos personalizados.
+A maior parte do estilo é feita com classes Tailwind CSS diretamente no HTML,
+mas aqui você pode adicionar estilos adicionais ou overrides.
+*/
+
+/* Exemplo de estilo para o selecionador múltiplo de habilidades, se necessário */
+select[multiple] {
+    min-height: 120px; /* Garante que a lista de habilidades seja visível */
+    padding: 0.5rem;
+}
+
+/* Esconder a barra de rolagem para o seletor múltiplo em alguns navegadores se a altura for definida */
+/* select[multiple]::-webkit-scrollbar {
+    display: none;
+}
+select[multiple] {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+} 
+
+/* Estilos para o popup do Leaflet (se quiser personalizar além do que já está no HTML) */
+.leaflet-popup-content-wrapper {
+    /* Exemplo: background-color: #f7fafc; */
+}
+
+/* Ajustes visuais para o foco */
+.input-field:focus {
+    outline: none;
+    border-color: #059669; /* Verde Elementor */
+    box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.3); /* Um leve brilho verde */
+}
